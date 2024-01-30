@@ -66,6 +66,23 @@ main {
   outline: none;
 }
 
+.icon {
+  position: absolute;
+  top: 20%;
+  right: 20px;
+  transform: translateY(-50%);
+  background: url(./assets/olho.png);
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.icon.hide{
+  background: url(./assets/hide.png);
+  background-size: cover;
+}
+
 .formlogin label {
   font-size: 15px;
   padding: 0;
